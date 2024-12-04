@@ -1,0 +1,40 @@
+body{
+    background-color: darkblue;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: goldenrod;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    top: 100px;
+    left: 300px;
+}
+
+.caja1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    top: 50px;
+}
+
+.caja2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.caja3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    bottom: 50px;
+}
